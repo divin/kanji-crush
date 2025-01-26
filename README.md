@@ -1,39 +1,39 @@
-# Kanji Crush
+# Kanji Crush 🎮
 
-Kanji Crush is an engaging practice game designed to help you master similar-looking kanji characters. The game leverages the Wanikani API to fetch kanji data and provides a fun and interactive way to improve your kanji recognition skills.
+Kanji Crush is a fun game to help you master tricky kanji characters using the Wanikani API. Improve your kanji recognition skills in an interactive way!
 
-## Features
+## Features 🌟
 
-- **Interactive Gameplay**: Practice recognizing similar-looking kanji characters.
-- **Statistics Tracking**: Keep track of your progress, accuracy, and performance.
-- **Customizable Settings**: Adjust the range of kanji levels and shuffle options.
+- **Interactive Gameplay**: Practice recognizing similar-looking kanji.
+- **Statistics Tracking**: Monitor your progress and performance.
+- **Customizable Settings**: Adjust kanji levels and shuffle options.
 
-### Game Interface
+### Game Interface 🕹️
 
-- **Header**: Displays the title "Kanji Crush" and a menu button for settings.
-- **Description**: Brief description of the game.
-- **Game Area**: Displays the current kanji, its meanings, and multiple-choice options for similar-looking kanji.
-- **Footer**: Displays the current year, imprint, and privacy policy links.
+- **Header**: Title "Kanji Crush" and settings menu.
+- **Description**: Brief game overview.
+- **Game Area**: Shows the current kanji, meanings, and multiple-choice options.
+- **Footer**: Current year, imprint, and privacy policy links.
 
-### Settings
+### Settings ⚙️
 
-- **Level Selection**: Adjust the range of kanji levels to practice.
-- **Shuffle Option**: Toggle the shuffle option to randomize kanji selection.
-- **Reset Button**: Reset the game to start over.
+- **Level Selection**: Choose kanji levels to practice.
+- **Shuffle Option**: Randomize kanji selection.
+- **Reset Button**: Restart the game.
 
-### Statistics
+### Statistics 📊
 
-- **Progress Section**: Displays a progress bar and various game statistics such as accuracy, correct answers, incorrect answers, and remaining kanjis.
-- **Summary**: At the end of the game, a summary section provides options to download the summary table and restart the game with failed kanjis.
+- **Progress Section**: Progress bar and game stats (accuracy, correct/incorrect answers, remaining kanji).
+- **Summary**: End-game summary with options to download results and retry failed kanji.
 
-## Support
+## Support 💖
 
-If you find this application helpful, consider supporting the developer:
+If you enjoy Kanji Crush, consider supporting the developer:
 
-- [Support on Ko-fi ❤️](https://ko-fi.com/divin)
-- [Support on GitHub ❤️](https://github.com/sponsors/divin)
+- [Support on Ko-fi](https://ko-fi.com/divin)
+- [Support on GitHub](https://github.com/sponsors/divin)
 
-## Acknowledgements
+## Acknowledgements 🙏
 
-- [Wanikani](https://www.wanikani.com/) for providing the kanji data through their API.
-- [Reflex](https://reflex.com/) for the UI components used in this application.
+- [Wanikani](https://www.wanikani.com/) for kanji data.
+- [Reflex](https://reflex.com/) for UI components.
