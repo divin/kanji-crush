@@ -40,4 +40,5 @@ If you enjoy Kanji Crush, consider supporting me:
 ## Acknowledgements 🙏
 
 - [WaniKani](https://www.wanikani.com/) for kanji data.
-- [Reflex](https://reflex.com/) for UI components.
+- [Reflex](https://reflex.dev/) for UI components.
+- [Railway](https://railway.com?referralCode=dLIOpU) for hosting.
