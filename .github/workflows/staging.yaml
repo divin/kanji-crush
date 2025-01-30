@@ -10,7 +10,7 @@ jobs:
     container: ghcr.io/railwayapp/cli:latest
     env:
       SVC_ID: kanji-crush
-      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN }}
+      RAILWAY_TOKEN: ${{ secrets.RAILWAY_TOKEN_STAGING }}
     steps:
       - uses: actions/checkout@v3
       - run: railway up --service=${{ env.SVC_ID }} --ci --environment staging
