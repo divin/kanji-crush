@@ -1,7 +1,7 @@
 [project]
 name = "kanji-crush"
-version = "0.1.0"
-description = "Add your description here"
+version = "1.0.0"
+description = "A simple game to help you learn kanji"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = ["numpy>=2.2.1", "pandas>=2.2.3", "reflex>=0.6.8"]

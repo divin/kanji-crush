@@ -1,6 +1,6 @@
 # Kanji Crush 🎮
 
-Kanji Crush is a fun game to help you master tricky kanji characters using the Wanikani API. Improve your kanji recognition skills in an interactive way!
+Kanji Crush is a fun game to help you master tricky kanji characters using the WaniKani API. Improve your kanji recognition skills in an interactive way!
 
 ## Features 🌟
 
@@ -26,14 +26,18 @@ Kanji Crush is a fun game to help you master tricky kanji characters using the W
 - **Progress Section**: Progress bar and game stats (accuracy, correct/incorrect answers, remaining kanji).
 - **Summary**: End-game summary with options to download results and retry failed kanji.
 
+## Limitations 🚫
+
+To use this app, you need a **WaniKani account**, a **WaniKani API key**, and **an active subscription** to WaniKani. Free trial accounts are also supported but have limited access to kanji data.
+
 ## Support 💖
 
-If you enjoy Kanji Crush, consider supporting the developer:
+If you enjoy Kanji Crush, consider supporting me:
 
 - [Support on Ko-fi](https://ko-fi.com/divin)
 - [Support on GitHub](https://github.com/sponsors/divin)
 
 ## Acknowledgements 🙏
 
-- [Wanikani](https://www.wanikani.com/) for kanji data.
+- [WaniKani](https://www.wanikani.com/) for kanji data.
 - [Reflex](https://reflex.com/) for UI components.

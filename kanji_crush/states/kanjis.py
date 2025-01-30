@@ -3,25 +3,26 @@ import os
 import pandas as pd
 import reflex as rx
 
-from kanji_crush.utilities import get_similar_looking_kanjis
-
-from .settings import Settings
-from .statistics import Statistics
-
 
 class Kanjis(rx.State):
-    if not os.path.exists("assets/kanjis.json"):
-        api_token = os.environ.get("WANIKANI_API_TOKEN", None)
-
-        if api_token is None:
-            raise ValueError("Please provide a Wanikani API token.")
-
-        get_similar_looking_kanjis(api_token=api_token)
-
-    kanjis: pd.DataFrame = pd.read_json("assets/kanjis.json")
+    kanjis: pd.DataFrame | None = None
 
     async def get_selection(self) -> list[dict[str, int | list[str | int]]]:
+        from kanji_crush.states.settings import Settings
+        from kanji_crush.states.wanikani import Wanikani
+
         settings = await self.get_state(Settings)
+        wanikani = await self.get_state(Wanikani)
+
+        if self.kanjis is None and os.path.exists("assets/kanjis.json"):
+            self.kanjis = pd.read_json("assets/kanjis.json")
+        else:
+            api_token = os.environ.get("WANIKANI_API_TOKEN", None)
+
+            if api_token is None:
+                raise ValueError("Please provide a WaniKani API token.")
+
+            wanikani.get_similar_looking_kanjis(api_token=api_token)
 
         # Select levels
         is_level = (settings.min_level <= self.kanjis.level) & (
@@ -41,6 +42,9 @@ class Kanjis(rx.State):
         return selection.to_dict(orient="records")
 
     async def get_failed_selection(self) -> list[dict[str, int | list[str | int]]]:
+        from kanji_crush.states.settings import Settings
+        from kanji_crush.states.statistics import Statistics
+
         settings = await self.get_state(Settings)
         statistics = await self.get_state(Statistics)
 

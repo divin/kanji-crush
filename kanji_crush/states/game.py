@@ -2,6 +2,7 @@ import numpy as np
 import reflex as rx
 
 from .kanjis import Kanjis
+from .settings import Settings
 from .statistics import Statistics
 
 
@@ -34,6 +35,11 @@ class Game(rx.State):
     async def start_game(self) -> None:
         kanjis = await self.get_state(Kanjis)
         statistics = await self.get_state(Statistics)
+        settings = await self.get_state(Settings)
+
+        if settings.is_not_valid:
+            yield rx.toast.error("Please provide a valid API token 🙅", duration=5000)
+            return
 
         # Reset game
         self.current_index = 0

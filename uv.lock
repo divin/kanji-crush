@@ -469,13 +469,12 @@ wheels = [
 
 [[package]]
 name = "kanji-crush"
-version = "0.1.0"
+version = "1.0.0"
 source = { virtual = "." }
 dependencies = [
     { name = "numpy" },
     { name = "pandas" },
     { name = "reflex" },
-    { name = "reflex-hosting-cli" },
 ]
 
 [package.metadata]
@@ -483,7 +482,6 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.2.1" },
     { name = "pandas", specifier = ">=2.2.3" },
     { name = "reflex", specifier = ">=0.6.8" },
-    { name = "reflex-hosting-cli", specifier = ">=0.1.32" },
 ]
 
 [[package]]
