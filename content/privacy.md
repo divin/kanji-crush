@@ -35,10 +35,10 @@
 <p>Wir setzen folgende(n) Hoster ein:</p>
 
 <p>
-    Netlify, Inc.<br/>
-    44 Montgomery Street, Suite 300, <br/>
+    Railway Corporation<br/>
+    80 Rossi Ave<br/>
     San Francisco,<br/>
-    California 94104
+    California 94118
 </p>
 
 <h2>3. Allgemeine Hinweise und Pflicht&shy;informationen</h2>
