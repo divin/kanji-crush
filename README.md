@@ -30,13 +30,6 @@ Kanji Crush is a fun game to help you master tricky kanji characters using the W
 
 To use this app, you need a **WaniKani account**, a **WaniKani API key**, and **an active subscription** to WaniKani. Free trial accounts are also supported but have limited access to kanji data.
 
-## Support 💖
-
-If you enjoy Kanji Crush, consider supporting me:
-
-- [Support on Ko-fi](https://ko-fi.com/divin)
-- [Support on GitHub](https://github.com/sponsors/divin)
-
 ## Acknowledgements 🙏
 
 - [WaniKani](https://www.wanikani.com/) for kanji data.
